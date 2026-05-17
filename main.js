@@ -22,8 +22,12 @@ function isPalindrome (string) {
 
 const UserChoice = prompt("Decidi se pari (p) o dispari (d)");
 const UserNum = prompt("Fai la tua giocata: scegli un numero da 0 a 5");
+alert("il computer gioca: " + rdm(0, 5));
 
 //Funzione: computer genera un numero random da 0 a 5
-
+function rdm(min, max) // funzione che genera un numero random tra min e max
+{ let rdmValue = (min + Math.floor(Math.random() * (max - min + 1)));
+    return rdmValue;
+};
 
 //Funzione: sommiamo i due numeri e dichiariamo chi ha vinto

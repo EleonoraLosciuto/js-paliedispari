@@ -13,3 +13,17 @@ function isPalindrome (string) {
     let check = (string === reverted);
     return check;
 };
+
+
+//Pari o dispari
+
+//User decide se pari o dispari
+//User inserisce un numero da 0 a 5 nel prompt
+
+const UserChoice = prompt("Decidi se pari (p) o dispari (d)");
+const UserNum = prompt("Fai la tua giocata: scegli un numero da 0 a 5");
+
+//Funzione: computer genera un numero random da 0 a 5
+
+
+//Funzione: sommiamo i due numeri e dichiariamo chi ha vinto

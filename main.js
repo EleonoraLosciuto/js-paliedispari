@@ -2,11 +2,11 @@
 // Chiedere all’utente di inserire una parola
 // Creare una funzione per capire se la parola inserita è palindroma
 
-// Chiedo all'utente = uso un prompt
+// Chiedo all'utente = uso un prompt - Risultato mostrato con alert
 
-console.log(isPalindrome(prompt("Inserisci una parola").toLowerCase())); // Note: function is declared below (hoisting)
+alert(isPalindrome(prompt("Inserisci una parola").toLowerCase())); // Note: function is declared below (hoisting)
 
-// Parola palindroma = uguale se letta al contrario // function will have to return a boolean value
+// Parola palindroma = uguale se letta al contrario // function will have to return a string after checking a boolean value
 
 function isPalindrome (string) {
     let reverted = string.split("").toReversed().join("");
